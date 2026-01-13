@@ -1,4 +1,6 @@
 #include<stdio.h>
 main(){
 printf("elo my friends");
+scanf( "%d" , age);
+printf("your age is: ",age);
 }
