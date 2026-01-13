@@ -1,6 +1,15 @@
-#include<stdio.h>
-main(){
-printf("elo my friends");
-scanf( "%d" , age);
-printf("your age is: ",age);
+#include <stdio.h>
+
+int main(void) {
+    int age;
+
+    printf("elo my friends\n");
+    printf("Enter your age: ");
+    if (scanf("%d", &age) == 1) {
+        printf("your age is: %d\n", age);
+    } else {
+        printf("Invalid input.\n");
+    }
+
+    return 0;
 }
